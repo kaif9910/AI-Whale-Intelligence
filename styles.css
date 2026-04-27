@@ -53,6 +53,36 @@ div[data-baseweb="popover"] [role="option"] * {
   color: #12343b !important;
 }
 
+[data-testid="stSidebar"] [data-testid="stButton"] button {
+  background: #cf6a3d !important;
+  border: 1px solid rgba(255, 255, 255, 0.34) !important;
+  color: #fff9f0 !important;
+  font-weight: 800 !important;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
+}
+
+[data-testid="stSidebar"] [data-testid="stButton"] button * {
+  color: #fff9f0 !important;
+}
+
+[data-testid="stSidebar"] [data-testid="stButton"] button:hover {
+  background: #e07a48 !important;
+  border-color: rgba(255, 255, 255, 0.58) !important;
+}
+
+[data-testid="stSidebar"] [data-testid="stButton"] button:disabled,
+[data-testid="stSidebar"] [data-testid="stButton"] button[disabled] {
+  background: rgba(255, 249, 240, 0.28) !important;
+  border-color: rgba(255, 255, 255, 0.18) !important;
+  color: rgba(255, 249, 240, 0.72) !important;
+  box-shadow: none;
+}
+
+[data-testid="stSidebar"] [data-testid="stButton"] button:disabled *,
+[data-testid="stSidebar"] [data-testid="stButton"] button[disabled] * {
+  color: rgba(255, 249, 240, 0.72) !important;
+}
+
 .block-container {
   padding-top: 2rem;
   padding-bottom: 2.5rem;
