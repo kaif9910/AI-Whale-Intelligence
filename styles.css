@@ -34,6 +34,25 @@
   color: #f7f2eb !important;
 }
 
+[data-testid="stSidebar"] [data-testid="stSelectbox"] div[data-baseweb="select"] > div {
+  background: #fff9f0 !important;
+  border: 1px solid rgba(255, 255, 255, 0.42) !important;
+}
+
+[data-testid="stSidebar"] [data-testid="stSelectbox"] div[data-baseweb="select"] * {
+  color: #12343b !important;
+  fill: #12343b !important;
+}
+
+[data-testid="stSidebar"] [data-testid="stSelectbox"] svg {
+  fill: #12343b !important;
+}
+
+div[data-baseweb="popover"] [role="option"],
+div[data-baseweb="popover"] [role="option"] * {
+  color: #12343b !important;
+}
+
 .block-container {
   padding-top: 2rem;
   padding-bottom: 2.5rem;
