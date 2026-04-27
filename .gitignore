@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.streamlit/secrets.toml
+
+# Generated runtime data
+ai_master_data.csv
+master_news_database.csv
+master_news_database_*.csv
+last_selected_coin.txt
+
+# Local environment files
+.env
+.venv/
+venv/
+env/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
