@@ -4,6 +4,16 @@ AI Whale Intelligence Terminal is a Streamlit dashboard for tracking crypto mark
 
 The project combines live market candles, crypto news headlines, sentiment analysis, and dashboard visuals into one simple intelligence terminal.
 
+
+---
+
+## 🚀 Live Demo
+
+🔗 **[Open Live App → ai-whale-intelligence.streamlit.app](https://ai-whale-intelligence.streamlit.app/)**
+
+---
+
+
 ## What It Does
 
 - Fetches live hourly market data from Coinbase Exchange
